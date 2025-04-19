@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "report-generator"
+version = "0.1.0"
+description = ""
+authors = ["f.ghelichkhani <f.ghelichkhani@emofid.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+langchain-openai = "^0.3.6"
+langchain = "^0.3.19"
+langchain-community = "^0.3.18"
+pandas = "^2.2.3"
+sqlalchemy = "^2.0.38"
+python-dotenv = "^1.0.1"
+pyodbc = "^5.2.0"
+streamlit = "^1.43.2"
+unstructured = "^0.17.2"
+networkx = "^3.4.2"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

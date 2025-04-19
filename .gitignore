@@ -1,0 +1,17 @@
+.poetry/
+poetry.lock
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.egg-info/
+*.egg
+dist/
+build/
+
+venv/
+env/
+.env/
+.env
